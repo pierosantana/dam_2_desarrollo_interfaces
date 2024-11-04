@@ -1,0 +1,21 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div1 {
+    width: 31.25rem;
+    height: 31.25rem;
+    background-color: white;
+
+}

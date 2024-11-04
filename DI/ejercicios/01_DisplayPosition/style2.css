@@ -1,0 +1,53 @@
+.container {
+    border: 3px solid black;
+    width: 360px;
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 100px;
+    flex-basis: 96px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 100px 100px 100px 100px;
+   
+}
+
+.uno {
+    flex-grow: 1;
+}
+.dos {
+    flex-grow: 9;
+}
+.tres {
+    flex-grow: 1;
+}
+
+.modificado {
+    align-self:self-end;
+}
+
+.fijo1 {
+    position: sticky;
+    top: 10px;
+    background-color: yellow;
+}
+
+.fijo2 {
+    position:sticky;
+    top: 0px;
+    background-color: green;
+}
+

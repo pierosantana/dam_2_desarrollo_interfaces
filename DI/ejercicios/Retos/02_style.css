@@ -1,0 +1,19 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+
+.div1, .div2, .div3, .div4 {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 0.5rem;
+    background-color: white;
+}
