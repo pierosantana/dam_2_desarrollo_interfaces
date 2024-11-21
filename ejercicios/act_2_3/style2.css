@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-primary: "Inconsolata",sans-serif;
+    --font-family-secondary: "Robo Mono",sans-serif;
+    --color-bg: #ffffff;
+    --color-text: #000000;
+    --border-color: #000000;
+    --font-size-note: 0.44rem;
+    --font-size-caption: 0.67rem;
+    --font-size-default: 1rem;
+    --font-size-h5: 1.5rem;
+    --font-size-h4: 2.25rem;
+    --font-size-h3: 3.38rem;
+    --font-size-h2: 5.06rem;
+    --font-size-h1: 7.59rem;
+    --font-weight-bold: 900;
+    --font-weight-medium: 600;
+    --font-weight-light: 300;
+}
+
+.dark-theme {
+    --color-bg: #000000;
+    --color-text: #ffffff;
+    --border-color: #ffffff;
+}
+
+body {
+    padding: 1rem;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+div {
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.caption{
+font-size: var(--font-size-caption);
+}
+
+.note {
+    font-size: var(--font-size-note);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:var(--font-family-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-default);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.light {
+    font-weight: var(--font-weight-light);
+}
+
+h1{
+    font-size: var(--font-size-h1);
+}
+h2{
+    font-size: var(--font-size-h2);
+}
+h3{
+    font-size: var(--font-size-h3);
+}
+h4{
+    font-size: var(--font-size-h4);
+}
+h5{
+    font-size: var(--font-size-h5);
+}
+
+p{
+    font-size: var(--font-size-default);
+}
+
+
+
+

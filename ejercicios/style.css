@@ -1,0 +1,19 @@
+.contenedor {
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

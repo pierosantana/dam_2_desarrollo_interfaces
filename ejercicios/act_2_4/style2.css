@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-primary: "Inconsolata",sans-serif;
+    --font-family-secondary: "Robo Mono",sans-serif;
+    --color-primary:#AA9FB1;
+    --color-secondary: #CCA7A2;
+    --color-accent: #D9BBF9;
+
+    --color-primary-variant1: #FFFFFF;
+    --color-primary-variant2: #FFFFFF;
+    --color-primary-variant3: #674B78;
+    --color-primary-variant4: #44205A;
+
+    --color-secondary-variant1: #FFFEFD;
+    --color-secondary-variant2: #FFF3F1;
+    --color-secondary-variant3: #905E57;
+    --color-secondary-variant4: #723830;
+
+    --color-accent-variant1: #FFFFFF;
+    --color-accent-variant2: #FFFFFF;
+    --color-accent-variant3: #A36DDD;
+    --color-accent-variant4: #8149BE;
+
+    --gradiente-primary-secondary: linear-gradient(0deg, rgba(170,159,177,0.9) 52%, rgba(204,167,162,0.9) 62%);
+    --gradiente-primary-accent:linear-gradient(0deg, rgba(170,159,177,0.9) 46%, rgba(217,187,249,0.7) 65%);
+
+}
+
+body {
+    height: 100vw;
+    width: 100vw;
+    background-image: var(--gradiente-primary-accent), url(../45a26a6b61243d8b9b03e784f0b1e824.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.div_1 {
+    padding: 1rem;
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.h1_1,.p_1{
+    color: var(--color-secondary-variant3);
+}
+
+.h1_1{
+    font-family: var(--font-family-primary);
+
+}
+.p_1{
+    font-family: var(--font-family-secondary);
+}
+
+.button_1{
+    color: var(--color-secondary-variant3);
+    background-color: var(--color-accent);
+    width: 12rem;
+    height: 2rem;
+    border-radius: 20px;
+
+
+}
