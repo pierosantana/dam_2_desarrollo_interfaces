@@ -8,7 +8,8 @@
     /* Colores */
     --color-primary: #FFFFFF;
     --color-secondary: #000000;
-    --color-tertiary: #525252;
+    --color-tertiary: #f6f6f6;
+    --color-quaternary: #262626;
 
     --color-danger: #FF0000;
     --color-submit: #30BE71;

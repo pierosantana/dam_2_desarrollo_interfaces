@@ -6,6 +6,16 @@
     cursor: pointer;
     box-sizing: border-box;
   }
+
+  .white-key:active {
+    transform: scaleX(0.95);
+    background-color: var(--color-tertiary);
+  }
+
+  .black-key:active {
+    transform: scaleX(0.95);
+    background-color: var(--color-quaternary);
+  }
   
   /* Teclas blancas: se posicionan en el grid */
   .white-key {

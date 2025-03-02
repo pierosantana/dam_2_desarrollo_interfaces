@@ -18,25 +18,18 @@ export default function Piano({ onKeyPress }) {
 
   // Controladores de eventos para reproducir y detener la nota.
   const handleMouseDown = (note) => {
-    console.log('MouseDown en:', note)
     //play({ id: note }) // Reproduce el sprite correspondiente
-    // if (onKeyPress) onKeyPress(note, 'down')
   }
 
   const handleMouseUp = (note) => {
-    console.log('MouseUp en:', note)
     //stop() // Detiene la reproducción
-    // if (onKeyPress) onKeyPress(note, 'up')
   }
 
   const handleMouseLeave = (note) => {
-    console.log('MouseLeave en:', note)
     //stop() // Detiene la reproducción si se sale de la tecla
-    // if (onKeyPress) onKeyPress(note, 'leave')
   }
 
   const handleClick = (note) => {
-    console.log('Click en:', note)
     play({ id: note })
     if (onKeyPress) onKeyPress(note, 'click')
   }

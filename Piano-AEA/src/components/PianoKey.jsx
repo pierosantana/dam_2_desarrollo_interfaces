@@ -7,6 +7,7 @@ export default function PianoKey({ note, type, gridColumn, start, duration, onCl
   if (type === 'white') {
     // Las teclas blancas usan gridColumn para su posición
     styleProps = { gridColumn: gridColumn };
+    
   } else if (type === 'black') {
     // Para la tecla negra, extraemos el número inicial del gridColumn
     // Por ejemplo, para "4 / span 2": startCol = 4

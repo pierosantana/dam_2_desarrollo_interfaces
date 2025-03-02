@@ -19,12 +19,12 @@
 
 
 .piano {
+  background-color: var(--color-tertiary);
   position: relative; /* Para que las teclas negras (absolute) se posicionen respecto a este contenedor */
   display: grid;
   grid-template-columns: repeat(208, var(--col-size));
   min-width: calc(208 * var(--col-size));
   margin: 0px auto;
-  background-color: var(--color-secondary);
   border: 2px solid var(--color-tertiary);
   box-sizing: border-box;
 }
