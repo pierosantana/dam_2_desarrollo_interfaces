@@ -1,0 +1,17 @@
+.note-history {
+    color: var(--color-primary);
+    text-align: center;
+    margin: var(--spacing-lg) 0;
+    margin-top: 24vh;
+  }
+  
+  .previous-note {
+    color: var(--color-tertiary);
+    font-size: var(--fs-md);
+  }
+  
+  .current-note {
+    color:var(--color-primary);
+    font-size: var(--fs-xl);
+    font-weight: var(--font-weight-semibold);
+  }

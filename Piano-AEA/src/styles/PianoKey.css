@@ -1,0 +1,34 @@
+.piano-key {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  /* Teclas blancas: se posicionan en el grid */
+  .white-key {
+    background-color: var(--color-primary);
+    border: 1px solid #000;
+    height: 18rem;
+    position: relative; /* Permite que se ubique en el grid */
+    z-index: 1;
+    color: var(--color-secondary);
+    font-size: var(--fs-base);
+    font-weight: var(--font-weight-extrabold);
+  }
+  
+  /* Teclas negras: se posicionan de forma absoluta para superponerse a las blancas */
+  .black-key {
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    height: 60%;
+    width: calc(var(--col-size) * 2);
+    position: absolute; /* Se retira del flujo del grid */
+    top: 0;
+    z-index: 2;
+    color: var(--color-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--font-weight-semibold);
+  }

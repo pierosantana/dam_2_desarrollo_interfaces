@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+
+    /* Fuentes */
+    --font-primary: 'Nunito', sans-serif;
+
+    /* Colores */
+    --color-primary: #FFFFFF;
+    --color-secondary: #000000;
+    --color-tertiary: #525252;
+
+    --color-danger: #FF0000;
+    --color-submit: #30BE71;
+
+    /* Fuente tipografica */
+
+    --font--family-primary: 'Nunito', sans-serif;
+
+    /* Peso tipografico */
+
+    --font-weight-bold: 1000;
+    --font-weight-extrabold: 800;
+    --font-weight-semibold: 600;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+    --font-weight-thin: 200;
+
+    /* Tamaño */
+    --fs-xs: clamp(0.64rem, 0.04vi + 0.63rem, 0.67rem);
+    --fs-sm: clamp(0.8rem, 0.14vi + 0.77rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.28vi + 0.93rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.5vi + 1.13rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.82vi + 1.37rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.29vi + 1.65rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 1.96vi + 1.98rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 2.92vi + 2.37rem, 5rem);
+    
+    /* Espaciado */
+
+    --spacing-xxs: 0.25rem;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 4rem;
+
+    /* Ancho de columnas */
+    --col-size: 1rem;
+
+
+}
